@@ -1,12 +1,26 @@
-# Python_dev
+# Python development environment
 
-For at installere dette ligges "requirements.txt" samt ".python-version" i mappen man vil arbejde i.
+## Step 1: Install pyenv + dependancies
 
-Der skal oprettes et virtual environment med navnet "3.5.10-dev" via pyenv. 
+Install all dependancies
+>sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 
+Install pyenv
+>curl https://pyenv.run | bash
+
+Add following lines to ~/.bashrc
+>export PATH="$HOME/.pyenv/bin:$PATH"
+>eval "$(pyenv init -)"
+>eval "$(pyenv virtualenv-init -)"
+
+## Step 2
+Download "requirements.txt" and ".python-version" and place them in the folder you want to work in.
+
+Create a virtual environment to develop in with the name "3.5.10-dev" 
 >pyenv virtualenv 3.5.10 3.5.10-dev
 
-Derefter vil dette miljø altid aktiveres når man går ind i mappen. 
+After exiting and reentering the folder, it should automaticly change to the 3.5.10-dev env.
 
-## For at installere alt i requirement.txt køres:
+## Step 3
+Install the requirements.txt content using the following command
 >pip install -r requirements.txt
