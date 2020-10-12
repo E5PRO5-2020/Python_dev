@@ -9,5 +9,5 @@ Kommandoen er
 
 Derefter vil dette miljø altid aktiveres når man går ind i mappen. 
 
-##For at installere alt i requirement.txt køres:
+## For at installere alt i requirement.txt køres:
 >pip install -r requirements.txt
