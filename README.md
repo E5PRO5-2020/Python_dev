@@ -9,9 +9,9 @@ Install pyenv
 >curl https://pyenv.run | bash
 
 Add following lines to ~/.bashrc
->export PATH="$HOME/.pyenv/bin:$PATH"
->eval "$(pyenv init -)"
->eval "$(pyenv virtualenv-init -)"
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 ## Step 2
 Download "requirements.txt" and ".python-version" and place them in the folder you want to work in.
