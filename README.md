@@ -4,7 +4,6 @@ For at installere dette ligges "requirements.txt" samt ".python-version" i mappe
 
 Der skal oprettes et virtual environment med navnet "3.5.10-dev" via pyenv. 
 
-Kommandoen er 
 >pyenv virtualenv 3.5.10 3.5.10-dev
 
 Derefter vil dette miljø altid aktiveres når man går ind i mappen. 
