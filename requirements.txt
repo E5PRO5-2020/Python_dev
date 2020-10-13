@@ -2,3 +2,4 @@ wheel
 pytest
 paho-mqtt>=1.5<1.6
 #Crypto.Cipher
+pycopy-binascii
