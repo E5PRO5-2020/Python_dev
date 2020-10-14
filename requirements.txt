@@ -1,5 +1,6 @@
 wheel
 pytest
 paho-mqtt>=1.5<1.6
-#Crypto.Cipher
 pycopy-binascii
+pycryptodome>=3.9,<3.10
+sphinx>=3.2,<3.3
