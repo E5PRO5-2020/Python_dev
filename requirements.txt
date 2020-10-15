@@ -1,6 +1,7 @@
 wheel
-pytest
 paho-mqtt>=1.5<1.6
 pycopy-binascii
-pycryptodome>=3.9,<3.10
-sphinx>=3.2,<3.3
+pycryptodome>=3.9.8,<3.10
+pytest>=6.1,<6.2
+sphinx>=3.2.1,<3.3
+sphinx_rtd_theme
