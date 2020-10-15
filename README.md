@@ -16,6 +16,9 @@ Add following lines to ~/.bashrc
 ## Step 2
 Download "requirements.txt" and ".python-version" and place them in the folder you want to work in.
 
+Install python 3.5.10 in pyenv
+>pyenv install 3.5.10
+
 Create a virtual environment to develop in with the name "3.5.10-dev" 
 >pyenv virtualenv 3.5.10 3.5.10-dev
 
