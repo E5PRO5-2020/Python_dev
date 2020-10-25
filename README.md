@@ -14,9 +14,6 @@ Add following lines to ~/.bashrc
 >eval "$(pyenv virtualenv-init -)"  
 
 ## Step 2
-Update pip-installer
->pip install --upgrade upgrade
-
 Download "requirements.txt" and ".python-version" and place them in the folder you want to work in.
 
 Install python 3.5.10 in pyenv
@@ -29,4 +26,4 @@ After exiting and reentering the folder, it should automaticly change to the 3.5
 
 ## Step 3
 Install the requirements.txt content using the following command
->pip install -r requirements.txt
+>sudo pip3 install -r requirements.txt
