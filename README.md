@@ -22,7 +22,7 @@ Install python 3.5.10 in pyenv
 Create a virtual environment to develop in with the name "3.5.10-dev" 
 >pyenv virtualenv 3.5.10 3.5.10-dev
 
-After exiting and reentering the folder, it should automaticly change to the 3.5.10-dev env.
+After exiting and reentering the folder, it should automatically change to the 3.5.10-dev env.
 
 ## Step 3
 Install the requirements.txt content using the following command
